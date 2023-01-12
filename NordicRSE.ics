@@ -1,0 +1,179 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Helsinki
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T030000
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T040000
+TZNAME:EET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Helsinki
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Stockholm
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Stockholm
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Helsinki:20221115T140000
+DURATION:PT1H
+SUMMARY:What Research Group Leaders Need to Know About Software Work
+UID:87d896d0-9db9-44d6-8f16-f482676aa948@87d8.org
+DESCRIPTION:As a group leader\, what do you need to know to get the most 
+ from your group's\ndata and software? How do you get the most long-term 
+ benefit from the work your group does?\nlocation: 
+ https://aalto.zoom.us/s/62141049461
+DTSTAMP:20230112T133100Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20220908T140000
+DURATION:PT30M
+SUMMARY:Nordic-RSE biweekly community meeting
+UID:b40ba20b-846b-4237-9900-8830caaa50a1@b40b.org
+DESCRIPTION:agenda and contact information on hackmd: 
+ https://hackmd.io/@nordic-rse/biweekly/edit
+LOCATION:https://aalto.zoom.us/j/62247607160?pwd=dU1KdFFmOWZrNkk4U1c1RHpzYn
+ U2Zz09
+DTSTAMP:20230112T133100Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20231222T235959
+EXDATE;TZID=/ics.py/2020.1/Europe/Stockholm:20221020T140000,20221229T140000
+ ,20230126T140000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20230202T140000
+DURATION:PT30M
+SUMMARY:Nordic-RSE biweekly community meeting
+UID:7a3da91b-18bc-4d79-9859-b978154acb9e@7a3d.org
+DESCRIPTION:agenda and contact information on hackmd: 
+ https://hackmd.io/@nordic-rse/biweekly/edit
+LOCATION:https://aalto.zoom.us/j/62247607160?pwd=dU1KdFFmOWZrNkk4U1c1RHpzYn
+ U2Zz09
+DTSTAMP:20230112T133100Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20220908T090000
+DURATION:PT30M
+SUMMARY:RSE coffee break
+UID:0c39ef54-783f-42e0-b60b-e7c030c06486@0c39.org
+DESCRIPTION:Weekly virtual coffee break: The RSE Finland group invites all 
+ interested in research software engineering to the weekly online coffee 
+ break at 10:00 (Europe/Helsinki) every Thursday. The coffee break is an 
+ informal meeting\, open for everyone to discuss with and listen to others 
+ interested in research software engineering. We currently have no pre-
+ decided topics\, but never run out of things to say.\nZoom Link: 
+ https://aalto.zoom.us/j/62426845282 (Zoom ID 624 2684 5282)\nWebsite: 
+ https://nordic-rse.org/communities/finland/#weekly-virtual-coffee-
+ break\nHackMD: https://hackmd.io/@nordic-rse/coffeebreak
+LOCATION:https://aalto.zoom.us/j/62426845282 (Zoom ID 624 2684 5282)
+DTSTAMP:20230112T133100Z
+RRULE:FREQ=WEEKLY;UNTIL=20230630T235959
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20221020T140000
+DURATION:PT1H30M
+SUMMARY:Nordic-RSE annual meeting
+UID:4a699b55-ced8-44f3-a5ea-74cf8d288655@4a69.org
+DESCRIPTION:In the meeting we will briefly present the 
+ association\nactivities and financial statements for 2022. The meeting 
+ is\nalso to make important decisions regarding the association\, such\nas 
+ deciding the size of the membership fee and selecting the\nboard for 
+ 2022-2023.\n\nHackMD (including join details): 
+ https://hackmd.io/2dL_zztLQBi0UO0hfT7LFQ
+LOCATION:see hackmd
+DTSTAMP:20230112T133100Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20221018T130000
+DURATION:PT3H
+SUMMARY:Unconference 2022
+UID:7f8bcb54-ab7f-4ce0-83ae-0dea1b202a93@7f8b.org
+DESCRIPTION:Nordic RSE 2022 Unconference. See the event page\nat 
+ https://nordic-rse.org/events/2022-online-unconference/\nand registration 
+ page at https://indico.neic.no/e/nordic-rse-2022
+DTSTAMP:20230112T133100Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20221019T130000
+DURATION:PT3H
+SUMMARY:Unconference 2022
+UID:47a037ba-f2a6-4473-b3e0-351ace06c279@47a0.org
+DESCRIPTION:Nordic RSE 2022 Unconference. See the event page\nat 
+ https://nordic-rse.org/events/2022-online-unconference/\nand registration 
+ page at https://indico.neic.no/e/nordic-rse-2022
+DTSTAMP:20230112T133100Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20221130T160000
+DURATION:PT1H
+SUMMARY:Chapel: Making Parallel Programming Productive\, from laptops to 
+ supercomputers
+UID:0a836096-76f2-48a9-aaae-416d374731b3@0a83.org
+DESCRIPTION:Over the past few decades\, a gulf has existed between 
+ mainstream programming languages—like Python\, Java\, C++\, Rust\, or 
+ Swift—and  technologies used in practice for programming 
+ supercomputers—like MPI\, OpenSHMEM\, OpenMP\, CUDA\, OpenCL\, or 
+ OpenACC.\nThis gulf results in making High Performance Computing something
+  of a specialized skill that may not  be readily available to the general 
+ programmer or applied computational scientist.\nIn some ways\, the problem
+  has even gotten worse over time\, as the end of Moore's law has led to 
+ building supercomputers using manycore processors and computational 
+ accelerators like GPUs.\n\nIn this talk\, I will introduce 
+ [Chapel](https://chapel-lang.org/)\, an open-source language created to 
+ bridge this gulf.\nChapel strives to support code that is similarly 
+ readable/writeable as Python\, yet without sacrificing the portability and
+  scalable performance required to utilize supercomputers 
+ effectively.\nSpecifically\, I will provide motivation for Chapel\, 
+ present some of its unique features and themes\, introduce flagship 
+ applications of Chapel\, and give a glimpse into our team's current 
+ priorities.
+LOCATION:zoom\, link in hackmd: <https://hackmd.io/@nordic-rse/seminar-
+ november-2022>
+DTSTAMP:20230112T133100Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Helsinki:20221130T150000
+DURATION:PT1H
+SUMMARY:Julia Users Helsinki Meetup
+UID:3a18efaa-4701-498a-a789-cb8079290b56@3a18.org
+DESCRIPTION:Next meetup on November 30 2022 in Otaniemi at 15:00. The room 
+ is TBA. This will be the\nfirst of a "library development" series\, where 
+ we will gradually develop a library together\nand add features step by 
+ step. During the first meeting\, we will have a general overview\nof a 
+ Julia library structure and general development workflow. As always\, free
+  of charge\nand refreshment included. If you are coming\, please register 
+ by Thursday 24th November.\nSee https://julia-users-helsinki.github.io/ 
+ for details.\nlocation: TBA
+DTSTAMP:20230112T133100Z
+END:VEVENT
+NAME:Nordic RSE
+X-WR-CALNAME:Nordic RSE
+END:VCALENDAR

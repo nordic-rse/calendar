@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Helsinki
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T030000
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T040000
+TZNAME:EET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Helsinki
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Helsinki:20221130T150000
+DURATION:PT1H
+SUMMARY:Julia Users Helsinki Meetup
+UID:fed78d54-d28d-423d-8c02-9e6da76ab642@fed7.org
+DESCRIPTION:Next meetup on November 30 2022 in Otaniemi at 15:00. The room 
+ is TBA. This will be the\nfirst of a "library development" series\, where 
+ we will gradually develop a library together\nand add features step by 
+ step. During the first meeting\, we will have a general overview\nof a 
+ Julia library structure and general development workflow. As always\, free
+  of charge\nand refreshment included. If you are coming\, please register 
+ by Thursday 24th November.\nSee https://julia-users-helsinki.github.io/ 
+ for details.\nlocation: TBA
+DTSTAMP:20230112T133100Z
+END:VEVENT
+NAME:Interesting events not by Nordic RSE
+X-WR-CALNAME:Interesting events not by Nordic RSE
+END:VCALENDAR

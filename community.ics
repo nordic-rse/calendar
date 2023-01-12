@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Helsinki
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T030000
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T040000
+TZNAME:EET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Helsinki
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Stockholm
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Stockholm
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Helsinki:20221115T140000
+DURATION:PT1H
+SUMMARY:What Research Group Leaders Need to Know About Software Work
+UID:9d49eb14-8a7e-40ca-925e-8e6bc38b11d6@9d49.org
+DESCRIPTION:As a group leader\, what do you need to know to get the most 
+ from your group's\ndata and software? How do you get the most long-term 
+ benefit from the work your group does?\nlocation: 
+ https://aalto.zoom.us/s/62141049461
+DTSTAMP:20230112T133100Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20220908T140000
+DURATION:PT30M
+SUMMARY:Nordic-RSE biweekly community meeting
+UID:6616e9a8-e59e-4336-badf-0c43ac0e14e3@6616.org
+DESCRIPTION:agenda and contact information on hackmd: 
+ https://hackmd.io/@nordic-rse/biweekly/edit
+LOCATION:https://aalto.zoom.us/j/62247607160?pwd=dU1KdFFmOWZrNkk4U1c1RHpzYn
+ U2Zz09
+DTSTAMP:20230112T133100Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20231222T235959
+EXDATE;TZID=/ics.py/2020.1/Europe/Stockholm:20221020T140000,20221229T140000
+ ,20230126T140000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20230202T140000
+DURATION:PT30M
+SUMMARY:Nordic-RSE biweekly community meeting
+UID:3f5cc27e-89f2-4a34-8cf2-7be532e3ad29@3f5c.org
+DESCRIPTION:agenda and contact information on hackmd: 
+ https://hackmd.io/@nordic-rse/biweekly/edit
+LOCATION:https://aalto.zoom.us/j/62247607160?pwd=dU1KdFFmOWZrNkk4U1c1RHpzYn
+ U2Zz09
+DTSTAMP:20230112T133100Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20220908T090000
+DURATION:PT30M
+SUMMARY:RSE coffee break
+UID:3382522b-9f9a-48cd-9645-d293d20c4cd1@3382.org
+DESCRIPTION:Weekly virtual coffee break: The RSE Finland group invites all 
+ interested in research software engineering to the weekly online coffee 
+ break at 10:00 (Europe/Helsinki) every Thursday. The coffee break is an 
+ informal meeting\, open for everyone to discuss with and listen to others 
+ interested in research software engineering. We currently have no pre-
+ decided topics\, but never run out of things to say.\nZoom Link: 
+ https://aalto.zoom.us/j/62426845282 (Zoom ID 624 2684 5282)\nWebsite: 
+ https://nordic-rse.org/communities/finland/#weekly-virtual-coffee-
+ break\nHackMD: https://hackmd.io/@nordic-rse/coffeebreak
+LOCATION:https://aalto.zoom.us/j/62426845282 (Zoom ID 624 2684 5282)
+DTSTAMP:20230112T133100Z
+RRULE:FREQ=WEEKLY;UNTIL=20230630T235959
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20221020T140000
+DURATION:PT1H30M
+SUMMARY:Nordic-RSE annual meeting
+UID:da4c87f2-ab3d-4630-a064-6a3722368eca@da4c.org
+DESCRIPTION:In the meeting we will briefly present the 
+ association\nactivities and financial statements for 2022. The meeting 
+ is\nalso to make important decisions regarding the association\, such\nas 
+ deciding the size of the membership fee and selecting the\nboard for 
+ 2022-2023.\n\nHackMD (including join details): 
+ https://hackmd.io/2dL_zztLQBi0UO0hfT7LFQ
+LOCATION:see hackmd
+DTSTAMP:20230112T133100Z
+END:VEVENT
+NAME:Community
+X-WR-CALNAME:Community
+END:VCALENDAR

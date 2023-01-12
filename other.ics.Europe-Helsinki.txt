@@ -1,0 +1,14 @@
+
+
+----------
+Subject: Julia Users Helsinki Meetup
+Start:   Wednesday, 30 November 2022, 15:00 EET
+Description:
+
+Next meetup on November 30 2022 in Otaniemi at 15:00. The room is TBA. This will be the
+first of a "library development" series, where we will gradually develop a library together
+and add features step by step. During the first meeting, we will have a general overview
+of a Julia library structure and general development workflow. As always, free of charge
+and refreshment included. If you are coming, please register by Thursday 24th November.
+See https://julia-users-helsinki.github.io/ for details.
+location: TBA
