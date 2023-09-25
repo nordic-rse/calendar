@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0.dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Stockholm
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Stockholm
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20221018T130000
+DURATION:PT3H
+SUMMARY:Unconference 2022
+UID:50dd8f02-c680-4eb1-b542-3b3f4d31b21a@50dd.org
+DESCRIPTION:Nordic RSE 2022 Unconference. See the event page\nat 
+ https://nordic-rse.org/events/2022-online-unconference/\nand registration 
+ page at https://indico.neic.no/e/nordic-rse-2022
+DTSTAMP:20230925T080406Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20221019T130000
+DURATION:PT3H
+SUMMARY:Unconference 2022
+UID:a666ee07-6302-4125-ad29-43648b38a03a@a666.org
+DESCRIPTION:Nordic RSE 2022 Unconference. See the event page\nat 
+ https://nordic-rse.org/events/2022-online-unconference/\nand registration 
+ page at https://indico.neic.no/e/nordic-rse-2022
+DTSTAMP:20230925T080406Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20231025T130000
+DURATION:PT3H
+SUMMARY:Unconference 2023
+UID:862f4a30-9413-405e-84fe-f1a2bcfc8858@862f.org
+DESCRIPTION:Nordic RSE 2023 Unconference. See the event page\nat 
+ https://nordic-rse.org/events/2023-online-unconference/\nand registration 
+ page at https://indico.neic.no/e/nordic-rse-unconference-2023
+DTSTAMP:20230925T080406Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20231026T130000
+DURATION:PT3H
+SUMMARY:Unconference 2023
+UID:424a6cb1-bad2-45d0-8a59-5fbca70a29fd@424a.org
+DESCRIPTION:Nordic RSE 2023 Unconference. See the event page\nat 
+ https://nordic-rse.org/events/2023-online-unconference/\nand registration 
+ page at https://indico.neic.no/e/nordic-rse-unconference-2023
+DTSTAMP:20230925T080406Z
+END:VEVENT
+NAME:Conferences
+X-WR-CALNAME:Conferences
+END:VCALENDAR
