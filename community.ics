@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0.dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Stockholm
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Stockholm
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Helsinki
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T030000
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T040000
+TZNAME:EET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Helsinki
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20231019T140000
+DURATION:PT1H
+SUMMARY:Nordic-RSE annual meeting
+UID:9928a426-0bc9-497e-bcbc-4295315478b7@9928.org
+DESCRIPTION:In the meeting we will briefly present the 
+ association\nactivities and financial statements for 2023. The meeting 
+ is\nalso to make important decisions regarding the association\, such\nas 
+ deciding the size of the membership fee and selecting the\nboard for 
+ 2023-2024. Agenda and connection details in hackmd 
+ <https://hackmd.io/@nordic-rse/annual_meeting_2023>.
+DTSTAMP:20241003T074230Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Helsinki:20221115T130000
+DURATION:PT1H
+SUMMARY:What Research Group Leaders Need to Know About Software Work
+UID:4fd1de08-06d2-46b1-9346-93c83eacd36c@4fd1.org
+DESCRIPTION:As a group leader\, what do you need to know to get the most 
+ from your group's\ndata and software? How do you get the most long-term 
+ benefit from the work your group does?\nlocation: 
+ https://aalto.zoom.us/s/62141049461
+DTSTAMP:20241003T074230Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20220908T140000
+DURATION:PT30M
+SUMMARY:Nordic-RSE biweekly community meeting
+UID:2565c124-27df-426e-840c-0dd9dcf6065e@2565.org
+DESCRIPTION:agenda and contact information on hackmd: 
+ https://hackmd.io/@nordic-rse/biweekly/edit
+LOCATION:https://aalto.zoom.us/j/62247607160?pwd=dU1KdFFmOWZrNkk4U1c1RHpzYn
+ U2Zz09
+DTSTAMP:20241003T074230Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20231222T235959
+EXDATE;TZID=/ics.py/2020.1/Europe/Stockholm:20221020T140000,20221229T140000
+ ,20230126T140000,20230323T140000,20230907T140000,20231019T140000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20240926T130000
+DURATION:PT30M
+SUMMARY:Nordic-RSE community meeting
+UID:e1c8fdfb-eba5-4cc1-af74-c2c72c105f67@e1c8.org
+DESCRIPTION:Agenda and contact information on hackmd: 
+ https://hackmd.io/@nordic-rse/biweekly/edit
+LOCATION:https://aalto.zoom.us/j/62247607160?pwd=dU1KdFFmOWZrNkk4U1c1RHpzYn
+ U2Zz09
+DTSTAMP:20241003T074230Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241231T235959
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20230202T140000
+DURATION:PT30M
+SUMMARY:Nordic-RSE biweekly community meeting
+UID:5f6e72fe-ad4e-4b61-b8d4-96e68240289a@5f6e.org
+DESCRIPTION:Agenda and contact information on hackmd: 
+ https://hackmd.io/@nordic-rse/biweekly/edit
+LOCATION:https://aalto.zoom.us/j/62247607160?pwd=dU1KdFFmOWZrNkk4U1c1RHpzYn
+ U2Zz09
+DTSTAMP:20241003T074230Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20220908T090000
+DURATION:PT30M
+SUMMARY:RSE coffee break
+UID:099ec69b-7f18-4da9-a640-eb756735e332@099e.org
+DESCRIPTION:Weekly virtual coffee break: The RSE Finland group invites all 
+ interested in research software engineering to the weekly online coffee 
+ break at 10:00 (Europe/Helsinki) every Thursday. The coffee break is an 
+ informal meeting\, open for everyone to discuss with and listen to others 
+ interested in research software engineering. We currently have no pre-
+ decided topics\, but never run out of things to say.\nZoom Link: 
+ https://aalto.zoom.us/j/62426845282 (Zoom ID 624 2684 5282)\nWebsite: 
+ https://nordic-rse.org/communities/finland/#weekly-virtual-coffee-
+ break\nHackMD: https://hackmd.io/@nordic-rse/coffeebreak
+LOCATION:https://aalto.zoom.us/j/62426845282 (Zoom ID 624 2684 5282)
+DTSTAMP:20241003T074230Z
+RRULE:FREQ=WEEKLY;UNTIL=20300630T235959
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Stockholm:20221020T140000
+DURATION:PT1H30M
+SUMMARY:Nordic-RSE annual meeting
+UID:7e03bbfc-9e3e-44f1-abfa-a2052f994cde@7e03.org
+DESCRIPTION:In the meeting we will briefly present the 
+ association\nactivities and financial statements for 2022. The meeting 
+ is\nalso to make important decisions regarding the association\, such\nas 
+ deciding the size of the membership fee and selecting the\nboard for 
+ 2022-2023.\n\nHackMD (including join details): 
+ https://hackmd.io/2dL_zztLQBi0UO0hfT7LFQ
+LOCATION:see hackmd
+DTSTAMP:20241003T074230Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Helsinki:20241003T140000
+DURATION:PT1H
+SUMMARY:Planning meeting for the 2025 Conference
+UID:6402d9b0-40c5-4b5c-8dce-b03bf3d6c760@6402.org
+DESCRIPTION:Break conference organization down to individual tasks to make 
+ it easier to find volunteers. Other ways to find volunteers?
+LOCATION:https://aalto.zoom.us/j/62247607160?pwd=dU1KdFFmOWZrNkk4U1c1RHpzYn
+ U2Zz09
+DTSTAMP:20241003T074230Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Helsinki:20230525T150000
+DURATION:PT1H
+SUMMARY:Planning meeting for the 2023 Unconference
+UID:9bf32095-662a-4605-8e19-5f49d28792ed@9bf3.org
+DESCRIPTION:Goals for the meeting: find actual date(s)\, create a short 
+ list of persons we would like\nto hear talks from\, assign activities\, 
+ create a list of deadlines\nlocation: please check chat
+DTSTAMP:20241003T074230Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Helsinki:20230831T150000
+DURATION:PT1H
+SUMMARY:Planning meeting for the 2023 Unconference
+UID:97820e8b-7fef-4d62-ae94-78022ddf4d26@9782.org
+DESCRIPTION:A planning meeting for the upcoming unconference. Meeting notes
+  and current status at \nhttps://hackmd.io/@nordic-rse/unconference-
+ planning.
+DTSTAMP:20241003T074230Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Helsinki:20231023T153000
+DURATION:PT30M
+SUMMARY:Planning meeting for the 2023 Unconference
+UID:c94982b7-7cb3-4a7b-b7a4-cd13fb9046c9@c949.org
+DESCRIPTION:A planning meeting for the upcoming unconference. Notes/status 
+ at\nhttps://hackmd.io/@nordic-rse/unconference-planning.
+DTSTAMP:20241003T074230Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Helsinki:20231024T150000
+DURATION:PT1H
+SUMMARY:Planning meeting for the 2023 Unconference
+UID:6d0d7dcf-fb40-4076-a8c8-33b4837a6488@6d0d.org
+DESCRIPTION:A planning meeting for the upcoming unconference. Notes/status 
+ at\nhttps://hackmd.io/@nordic-rse/unconference-planning.
+DTSTAMP:20241003T074230Z
+END:VEVENT
+NAME:Community
+X-WR-CALNAME:Community
+END:VCALENDAR
