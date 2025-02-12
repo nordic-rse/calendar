@@ -6,6 +6,17 @@ description: |
   Mainly the biweekly community meetings and coffee breaks.
 
 events:
+  - summary: Night of Unfinished Abstracts
+    description: |
+      This virtual, hackathon-style event is the perfect chance to collaborate on your conference proposals,
+      bounce ideas off peers, and get real-time feedback from the organizing team. 
+      Whether you’re polishing a draft or starting from scratch, we’ll help you refine your abstract and push it over the finish line.
+
+      Don’t miss this opportunity to brainstorm with fellow attendees and gain valuable insights into the submission process.
+      Bring your ideas, your questions, and your enthusiasm—together, we’ll make those unfinished abstracts shine!
+    begin: 2025-03-12 15:00:00
+    duration: { hours: 2 }
+
   - summary: Nordic-RSE Advent of Code session
     description: |
       We will meet on Zoom and together have some fun with https://adventofcode.com/ puzzles.
