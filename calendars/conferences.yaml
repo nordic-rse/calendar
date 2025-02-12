@@ -10,7 +10,7 @@ events:
       Nordic-RSE 2025 in person Conference. See the event page
       at https://nordic-rse.org/nrse2025/
     begin: 2025-05-20 
-    duration: { days: 2 }
+    end: 2025-05-21
 
 
   - summary: Unconference 2022
