@@ -64,6 +64,14 @@ events:
     timezone: Europe/Helsinki
     duration: { hours: 1 }
 
+  - summary: Nordic-RSE website hackathon
+    description: |
+      Agenda and contact information on hackmd: https://hackmd.io/@nordic-rse/biweekly/edit
+    location: https://aalto.zoom.us/j/62426845282
+    begin: 2025-09-18 12:30:00
+    duration: { minutes: 150 }
+
+
   - summary: Nordic-RSE community meeting
     description: |
       Agenda and contact information on hackmd: https://hackmd.io/@nordic-rse/biweekly/edit
@@ -73,6 +81,8 @@ events:
     repeat:
       interval: {weeks: 2}
       until: 2025-12-31 23:59:59
+      except_on:
+        - 2022-30-20 13:00:00
   
   - summary: Nordic-RSE biweekly community meeting
     description: |
