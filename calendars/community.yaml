@@ -82,7 +82,7 @@ events:
       interval: {weeks: 2}
       until: 2025-12-31 23:59:59
       except_on:
-        - 2022-30-20 13:00:00
+        - 2025-10-30 13:00:00
   
   - summary: Nordic-RSE biweekly community meeting
     description: |
