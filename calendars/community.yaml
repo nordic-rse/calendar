@@ -71,7 +71,7 @@ events:
     begin: 2025-10-30 12:30:00
     duration: { minutes: 150 }
 
- - summary: Nordic-RSE community meeting
+  - summary: Nordic-RSE website hackathon
     description: |
       Agenda and contact information on hackmd: https://hackmd.io/@nordic-rse/biweekly/edit
     location: https://aalto.zoom.us/j/62426845282
@@ -81,7 +81,7 @@ events:
       interval: {weeks: 2}
       until: 2026-06-31 23:59:59
 
- - summary: Nordic-RSE community meeting
+  - summary: Nordic-RSE community meeting
     description: |
       Agenda and contact information on hackmd: https://hackmd.io/@nordic-rse/biweekly/edit
     location: https://aalto.zoom.us/j/62426845282
