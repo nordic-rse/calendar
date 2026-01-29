@@ -71,7 +71,7 @@ events:
     begin: 2025-10-30 12:30:00
     duration: { minutes: 150 }
 
-  - summary: Nordic-RSE website hackathon
+  - summary: Nordic-RSE community meeting
     description: |
       Agenda and contact information on hackmd: https://hackmd.io/@nordic-rse/biweekly/edit
     location: https://aalto.zoom.us/j/62426845282
