@@ -118,7 +118,7 @@ events:
     duration: { minutes: 30 }
     repeat:
       interval: {weeks: 2}
-      until: 2025-07-31 23:59:59
+      until: 2030-07-31 23:59:59
 
   - summary: Nordic-RSE biweekly community meeting
     description: |
