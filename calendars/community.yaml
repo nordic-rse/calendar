@@ -120,12 +120,28 @@ events:
       interval: {weeks: 2}
       until: 2026-08-09 23:59:59
 
-  - summary: Nordic-RSE biweekly community meeting
+  - &community
+    summary: Nordic-RSE community meeting
     description: |
       Agenda and contact information on hackmd: https://hackmd.io/@nordic-rse/biweekly/edit
-    location: https://aalto.zoom.us/j/62247607160?pwd=dU1KdFFmOWZrNkk4U1c1RHpzYnU2Zz09
-    begin: 2023-02-02 14:00:00
+    location: https://aalto.zoom.us/j/62426845282
+    begin: 2026-11-05 13:00:00
     duration: { minutes: 30 }
+  # Should be the first Thursday of each month.  Fix it if I did it wrong
+  - { <<: *community, begin: 2026-12-03 13:00:00 }
+  - { <<: *community, begin: 2027-01-07 13:00:00 }
+  - { <<: *community, begin: 2027-02-04 13:00:00 }
+  - { <<: *community, begin: 2027-03-04 13:00:00 }
+  - { <<: *community, begin: 2027-04-01 13:00:00 }
+  - { <<: *community, begin: 2027-05-06 13:00:00 }
+  - { <<: *community, begin: 2027-06-03 13:00:00 }
+  - { <<: *community, begin: 2027-07-01 13:00:00 }
+  - { <<: *community, begin: 2027-08-05 13:00:00 }
+  - { <<: *community, begin: 2027-09-02 13:00:00 }
+  - { <<: *community, begin: 2027-10-07 13:00:00 }
+  - { <<: *community, begin: 2027-12-04 13:00:00 }
+  - { <<: *community, begin: 2027-13-02 13:00:00 }
+
 
   - summary: RSE coffee break
     description: |
