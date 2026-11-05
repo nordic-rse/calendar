@@ -126,7 +126,7 @@ events:
       Agenda and contact information on hackmd: https://hackmd.io/@nordic-rse/biweekly/edit
     location: https://aalto.zoom.us/j/62426845282
     begin: 2026-11-05 13:00:00
-    duration: { minutes: 30 }
+    duration: { minutes: 60 }
   # Should be the first Thursday of each month.  Fix it if I did it wrong
   - { <<: *community, begin: 2026-12-03 13:00:00 }
   - { <<: *community, begin: 2027-01-07 13:00:00 }
